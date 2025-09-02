@@ -4,6 +4,12 @@ A simple browser-based game built with **HTML, CSS, and jQuery**.
 Blocks fall from the top of the screen, and the player must click them before they disappear.  
 The game is fully configurable via a JSON file.
 
+![Start screen](example_start_screen.png)
+
+![In game](example_game_screen.png)
+
+![Results](example_result_screen.png)
+
 ---
 
 ## Features
@@ -57,3 +63,4 @@ The game can be customized via custom/config.json:
 - 🔊 Sound → Replace custom/sound.mp3 with your own sound file
 - 🖼️ Logo → Replace custom/logo.svg
 - 🔤 Font → Replace custom/font.ttf
+
