@@ -1,0 +1,81 @@
+* {
+	font-family: "Consolas";
+	font-size: 24px;
+}
+
+#brand {
+	background-color: #006363;
+	padding: 20px;
+}
+
+#brand_title {
+	font-weight: 700;
+	font-size: 70px;
+	color: #fff;
+	vertical-align: middle;
+}
+
+#header {
+	background-color: #00cabe;
+}
+
+#time_limit {
+	text-align: center;
+}
+
+#playground {
+	background-color: white;
+}
+
+#overlay_start_box, #overlay_result_box {
+	padding: 20px;
+	color: #fff;
+	background-color: #006363;
+}
+
+html {
+	border: 0;
+}
+
+#overlay_button_container {
+	text-align: center;
+}
+
+#overlay_start_button, #overlay_result_button {
+	background-color: #5d6a80;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+	padding: 10px;
+	
+}
+
+.block {
+	background-color: #006363;
+	color: #fff;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: #00cabe;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+}	
+
+.block.clicked {
+	background-color: #e60041;
+}
+
+#footer {
+	background-color: #5d6a80;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+    position: relative; 	
+	border-top-style: dashed;
+	border-top-width: 5px;
+	border-top-color: #f39200;
+}
+
+#overlay_result_text {
+	scrollbar-color: #f39200 #006363;	
+}

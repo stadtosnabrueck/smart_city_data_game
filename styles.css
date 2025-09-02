@@ -1,0 +1,112 @@
+* {
+	font-family: "Consolas", monospace;
+	font-size: 24px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;	
+}
+
+#header {
+	background-color: red;
+	display: flex;
+}
+
+#footer {
+    height: 25vh;
+	background-color: purple;
+}
+
+#brand {
+	display: flex;
+	height: 100px;
+	background-color: yellow;
+}
+
+#brand_title {
+	width: 100%;
+	font-size: 40px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+#brand_logo > img {
+	width: 150px;
+}
+
+html {
+	border-width: 5px;
+	border-style: solid;
+	border-color: green;
+}
+
+#playground {
+	position: relative;
+	background-color: blue;
+	width: 100vw;
+    height: 75vh;
+    overflow: hidden;
+}
+
+.block {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: #fff;
+    top: 0;
+    transition: background-color 0.3s, transform 0.3s, opacity 0.5s;
+    cursor: pointer;
+    animation: fall 5s linear forwards;
+    display: grid;
+    align-items: center;	
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+.block.clicked {
+    background-color: #e63946;
+    transform: scale(1.2);
+    opacity: 0;
+}
+
+#overlay_start, #overlay_result {
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+	right: 0;
+	bottom: 0;	
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+	background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 100;
+}
+
+#overlay_start_box, #overlay_result_box {
+	display:inline-block;
+	margin: 250px;
+	background-color: green;
+	position: absolute;	
+	z-index: 200;
+}
+
+#time_limit {
+	width: 100%
+}
+
+#overlay_result_text {
+	overflow-y: scroll; 	
+	max-height: 400px;
+	scrollbar-color: rebeccapurple green;	
+	box-sizing:border-box;	
+}

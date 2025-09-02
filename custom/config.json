@@ -1,0 +1,101 @@
+{
+   "title":"Welche Daten solltest Du nicht teilen?",
+   "startText":"In einer intelligenten Stadt 🏬, also einer <b>Smart City</b>, werden <b>viele Daten</b> benötigt, damit Menschen 👨👩 und Computer 💻 die richtigen Entscheidungen treffen können.<br /><br />Damit zum Beispiel <b>frühzeitig</b> erkannt wird, ob die Hase Hochwasser 💦 hat und Gefahr droht ⚠️, muss der Pegelstand stündlich 🕐 gemessen, aber auch Umweltdaten wie das Wetter ☔️ einbezogen werden. Diese Daten benötigen wir also, um <b>schnell reagieren</b> zu können 📢.<br /><br />Doch welche Daten solltest Du besser nicht mit der Smart City teilen? <b>👉 Entscheide selbst!</b><br /><br />Tippe nach Spielstart auf die Daten, die Du <b><u>nicht</u></b> teilen solltest.",
+   "startButton":"Spiel starten!",
+   "resultText":"Vielen Dank! Du hast Dich wie folgt entschieden:",
+   "resultAppendWouldShareText":" <u>würde ich teilen</u>:",
+   "resultAppendWouldNotShareText":" <u>würde ich nicht teilen</u>:",
+   "resultButton":"Spiel neustarten!",
+   "footerText":"Daten für die Smart City Osnabrück 👐",
+   "secondsLeftText":" Sekunden verbleibend.",
+   "baseSpeed":3,
+   "timeLimit":30,
+   "randomValueStart":1,
+   "randomValueEnd":10,
+   "blocks":[
+      {
+         "label":"🤒<br />Wie oft ich im letzten Jahr krank war",
+         "useRandomValue":false,
+         "isCriticalData":true,
+         "responseSameOpinion":"👍 Genau, das solltest Du nicht teilen.",
+         "responseNotSameOpinion":"🚫 Diese Daten solltest Du besser nicht mit einer Smart City teilen."
+      },
+      {
+         "label":"💶<br />Mein aktuelles Gehalt oder Taschengeld",
+         "useRandomValue":false,
+         "isCriticalData":true,
+         "responseSameOpinion":"👍 Genau, diese Daten gehören Dir.",
+         "responseNotSameOpinion":"🚫 Für eine Smart City sind diese Daten nicht interessant."
+      },
+      {
+         "label":"⛅<br />Daten von meiner Wetterstation im Garten",
+         "useRandomValue":false,
+         "isCriticalData":false,
+         "responseSameOpinion":"👍 Ja, diese Daten sind unkritisch, aber nützlich für die Smart City, um das Klima zu erforschen.",
+         "responseNotSameOpinion":"💬️ Es ist deine Entscheidung, aber die Daten sind unkritisch."
+      },
+      {
+         "label":"📈<br />Die Wahlergebnisse aus meinem Stadtteil",
+         "useRandomValue":false,
+         "isCriticalData":false,
+         "responseSameOpinion":"👍 Stimmt, Wahlergebnisse aus einem Stadtteil lassen keinen Rückschluss auf eine Person zu.",
+         "responseNotSameOpinion":"💬️ Solange Du nicht selbst verrätst, was Du gewählt hast, sind zusammengefasste Daten aus einem Stadtteil nicht kritisch."
+      },
+      {
+         "label":"🚗<br />Ob ich gerade im Stau stehe oder nicht",
+         "useRandomValue":false,
+         "isCriticalData":false,
+         "responseSameOpinion":"👍 Richtig, absolut unkritische Daten, aber für die Verkehrsplanung der Smart City sehr wichtig.",
+         "responseNotSameOpinion":"💬️ Deine Entscheidung, die Daten sind unkritisch, sind für die Verkehrsplanung einer Smart City aber hilfreich."
+      },
+      {
+         "label":"🌳<br />Ob der Baum gegenüber Wasser benötigt",
+         "useRandomValue":false,
+         "isCriticalData":false,
+         "responseSameOpinion":"👍 Ja, absolut unkritische Daten, aber für eine Smart City sehr wichtig, denn nur so gelingt effizienter Klimaschutz.",
+         "responseNotSameOpinion":"💬 Warum nicht? Das sind nun wirklich keine geheimen Daten."
+      },
+      {
+         "label":"🚲<br />Wo ein Schlagloch auf dem Fahrradweg ist",
+         "useRandomValue":false,
+         "isCriticalData":false,
+         "responseSameOpinion":"👍 Stimmt, das kannst Du einer Smart City gerne mitteilen. Dann können Schäden schneller behoben werden.",
+         "responseNotSameOpinion":"💬 Warum nicht? Das sind nun wirklich keine geheimen Daten."
+      },
+      {
+         "label":"🐧<br />Welche Vogelarten ich beobachtet habe",
+         "useRandomValue":false,
+         "isCriticalData":false,
+         "responseSameOpinion":"👍 Stimmt, um die Umwelt und ihre Entwicklung besser zu verstehen, sind solche Daten sehr hilfreich.",
+         "responseNotSameOpinion":"💬 Da sind wir anderer Meinung. Diese Daten sind nicht schützenswert, für eine Smart City aber sehr hilfreich."
+      },
+      {
+         "label":"⚡️<br />Wieviel Strom und Wasser ich verbrauche",
+         "useRandomValue":false,
+         "isCriticalData":false,
+         "responseSameOpinion":"💬 Tatsächlich ein schwieriges Thema. Für die effiziente Versorgung mit Strom und Wasser ist das hilfreich, aber unkritisch sind die Daten nicht.",
+         "responseNotSameOpinion":"💬 Tatsächlich ein schwieriges Thema. Unkritisch sind die Daten nicht, aber für die effiziente Versorgung mit Strom und Wasser trotzdem hilfreich."
+      },
+      {
+         "label":"📅<br />Meine geplanten Urlaubs- und Reisetermine",
+         "useRandomValue":false,
+         "isCriticalData":true,
+         "responseSameOpinion":"👍 Genau richtig. Für eine Smart City ist das nicht wichtig.",
+         "responseNotSameOpinion":"🚫 Das solltest Du besser für Dich behalten. Denn sonst wissen Einbrecher, wann eine günstige Gelegenheit ist."
+      },
+      {
+         "label":"🗑<br />Wie voll der Mülleimer gerade war",
+         "useRandomValue":false,
+         "isCriticalData":false,
+         "responseSameOpinion":"👍 Danke. Wenn die Smart City weiß, wie voll Mülleimer sind, kann die Stadtreinigung gezielter leeren.",
+         "responseNotSameOpinion":"💬️ Diese Daten sind wichtig für eine saubere Smart City, Du kannst sie daher bedenkenlos teilen."
+      },
+      {
+         "label":"💬<br />Meine privaten Chatnachrichten",
+         "useRandomValue":false,
+         "isCriticalData":true,
+         "responseSameOpinion":"👍 Absolut. Das sind deine Daten. Eine Smart City benötigt diese Daten nicht.",
+         "responseNotSameOpinion":"🚫 Danke für das Angebot, aber deine privaten Nachrichten benötigt die Smart City nicht."
+      }
+   ]
+}
