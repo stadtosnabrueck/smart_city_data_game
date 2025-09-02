@@ -30,7 +30,7 @@ Any modern web browser (Chrome, Firefox, Edge, Safari)
 ### Installation
 1. Clone this repository or download the ZIP
 2. Upload it to your web server (because of CORS problems the game will not work locally)
-3. call index.html 
+3. Call index.html 
 
 ## Configuration
 The game can be customized via custom/config.json:
@@ -63,4 +63,5 @@ The game can be customized via custom/config.json:
 - 🔊 Sound → Replace custom/sound.mp3 with your own sound file
 - 🖼️ Logo → Replace custom/logo.svg
 - 🔤 Font → Replace custom/font.ttf
+
 
